@@ -1,0 +1,82 @@
+body{
+	background-color: #303030; 
+	background-image: url("Forest.png");
+	background-position: center;
+	background-size: auto 130%;
+}
+
+#Navbar{
+	margin-top: 20px;
+	height: 70px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 3em;
+	box-shadow: 5px 10px 10px #111;
+	font-family: Rockwell;
+}
+
+#Navbar_name{
+	font-size: 20px;
+	margin: 0px 40px;
+	align-self: center;
+}
+
+#Navbar_buttons{	
+	align-self: center;
+	font-size: 24px;
+	margin: 0px 10px;
+}
+
+#Navbar_buttons ul{
+	list-style: none;
+}
+
+#Navbar_buttons ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#Navbar_buttons ul li a{
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+}
+
+#Navbar_buttons ul li a:hover{
+	box-shadow: 3px 3px 5px #111;
+}
+
+#Content{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#Content ul {
+	list-style: none;
+	padding-left: 0;
+	align-self: center;
+}		
+#Content ul li{
+	display: flex;
+	justify-content: center;
+	text-align: center; 
+}
+#Content h1{
+	font-family: Rockwell;
+	font-size: 50px;
+	color: #eee;
+	text-shadow: 5px 5px 3px #111; 
+}
+
+#HobbyList{
+	font-family: Rockwell;
+	font-size: 42px;
+	line-height: 1.6;
+	color: #eee;
+	text-shadow: 2px 2px 2px black;
+}
